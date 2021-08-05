@@ -1,0 +1,39 @@
+.contact-section1 {
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: 600px) {
+    margin-left: 5%;
+    border-radius: 9px;
+    // border: 0.5px solid rgb(202, 202, 202);
+    background-color: rgb(248, 248, 248);
+  }
+ 
+  
+}
+
+
+.pages-links {
+  margin-top: 2em;
+  width: 270px;
+  height: fit-content;
+  border-left: 1px solid rgb(73, 25, 95);
+
+  a {
+    color: rgb(91, 17, 126);
+  }
+
+  div {
+    margin-left: 4px;
+  }
+}
+.blur {
+  font-size: 20px;
+  text-shadow: 0px 0px 9px  white;
+  // color: rgb(73, 25, 95);
+  margin: 1em 0 5px 0;
+  color: rgb(180, 1, 97);
+}

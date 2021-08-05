@@ -1,0 +1,25 @@
+.blog-section1 {
+        grid-area: side1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: fit-content;
+
+        div {
+            margin: 0 0.5em;
+            max-width: 100%;
+            height: auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            color: $GY;
+            margin: 0.9em auto;
+        }
+    }

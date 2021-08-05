@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+  .header {
+    height: 60px;
+  }
+
+  .logo {
+    line-height: 60px;
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  .nav-menu {
+    flex-direction: column;
+    margin-right: 20px;
+    background-color: #1d1e1f;
+    position: fixed;
+    left: 100%;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    transition: left 0.3s;
+  }
+  .nav-menu-item {
+    line-height: 70px;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background-color: none;
+    color: lightgray;
+  }
+  .nav-toggle {
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+ .blog-grid {
+        padding: 60px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "side1"
+            "side2";
+
+        @media (min-width: 800px) {
+
+            padding: 75px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "side1 side2"
+        }
+
+
+    }

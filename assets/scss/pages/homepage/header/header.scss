@@ -1,0 +1,74 @@
+@import "./mediaqueries";
+@import "./_keyframes";
+
+header {
+  h1 {
+    margin-left: 3em;
+    color: red;
+  }
+}
+
+.header-container {
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  a {
+    padding: 8px;
+    color: $XDARK-GY;
+    text-decoration-color: var(--DARK-GY);
+  }
+  a:last-child {
+    margin-left: auto;
+    margin-right: 2em;
+  }
+  img {
+    min-width: 80px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.line-box {
+   @media (max-width:430px){
+      width: 250px;
+   }
+   @media (min-width:500px) and (max-width:650px){
+      width: 380px;
+   }
+}
+
+.h-line {
+  width: 1px;
+  height: 2px;
+  background-color: var(--OR);
+  animation: 1.2s bar;
+  animation-fill-mode: forwards;
+}
+
+.title {
+  h1 {
+    color: red;
+    margin-left: 1.5em;
+    opacity: 0;
+    animation: 0.3s message;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+  }
+}
+
+.message-2 {
+  opacity: 0;
+  margin-top: 0;
+  margin-left: 3em;
+  animation: 0.3s two;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+}

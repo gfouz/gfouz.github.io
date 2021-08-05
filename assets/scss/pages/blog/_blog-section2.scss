@@ -1,0 +1,46 @@
+.blog-section2 {
+        height: fit-content;
+        grid-area: side2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        h3 {
+            color: teal;
+        }
+
+        h1 {
+            color: $GY;
+            margin: 1em auto;
+        }
+
+    }
+
+    /* ---------------------This classes belong to section2-------------------- */
+    .blog-items {
+        width: 300px;
+        height: fit-content;
+        padding-bottom: 1em;
+        border-radius: 5px;
+        background-color: rgba(107, 114, 114, 0.116);
+
+        h3 {
+            margin-left: 1.5em;
+            margin-top: 1em;
+        }
+    }
+    .dynamic-list {
+        margin-top: 1em;
+    }
+
+    .links {
+        font-weight: bolder;
+        margin: 0.5em 2em;
+        color: rgb(76, 71, 100);
+    }
+
+    /* ----------------------- this classes belongs to section2 ---------------- */
+
+
+

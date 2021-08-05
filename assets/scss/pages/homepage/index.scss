@@ -1,0 +1,35 @@
+@import './mediaqueries';
+
+#header {
+    grid-area: header;
+    div {
+
+      @media (max-width:599px) {
+       width: fit-content;
+       margin: 0 auto;
+      }
+    }
+  }
+
+  #main {
+    grid-area: main;
+  }
+  #sidebar {
+    grid-area: sidebar;
+  }
+
+  #section-1 {
+    grid-area: one;
+  }
+
+  #section-2 {
+    grid-area: two;
+  }
+
+  #section-3 {
+    grid-area: three;
+  }
+
+  #footer {
+    grid-area: footer;
+  }

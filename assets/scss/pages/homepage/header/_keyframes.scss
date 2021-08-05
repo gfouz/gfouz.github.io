@@ -1,0 +1,40 @@
+@keyframes message 
+{
+  0% 
+  {
+    transform: translateY(10px);
+  }
+
+  100% 
+  {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes two 
+{
+  0% 
+  {
+    transform: translateY(-10px);
+  }
+
+  100% 
+  {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes bar 
+{
+  0% 
+  {
+    width: 0px;
+  }
+
+  100% 
+  {
+    width: 100%;
+  }
+}

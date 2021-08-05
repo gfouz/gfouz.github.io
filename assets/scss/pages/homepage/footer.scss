@@ -1,0 +1,41 @@
+.footer {
+    color: red;
+    font-style: italic;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+    h1 {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      text-shadow: 0px 0px 5px $wt;
+      transition:all 0.5s;
+    }
+    h1:hover {
+      transform: scale(1.2);
+    }
+
+  }
+
+  .photo {
+    flex: 1 100px;
+    height: 200px;
+    background-image: url('../../assets/images/homepage/footer/cdmx.jpg');
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 22;
+    background-image: radial-gradient(#746585 20%, transparent 40%),
+      radial-gradient(#ffffff 20%, transparent 20%);
+    background-color: #ebebeb;
+    background-position: 0 0, 50px 50px;
+    background-size: 3px 3px;
+    color: var(--dark-gr);
+
+  }

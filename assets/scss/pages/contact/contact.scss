@@ -1,0 +1,30 @@
+@import "./header";
+@import "./_sectionOne";
+@import "./sectionTwo";
+@import "./_messageOne";
+@import "./_messageTwo";
+@import "./_messageThree";
+@import "./footer";
+
+.contact-box { 
+  height: max-content;
+  @media only screen and (min-width: 600px) {
+    display: grid;
+    grid-template-rows: 70px 600px 70px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "left   right"
+      "footer footer";
+  }
+  @media (max-width: 599px) {
+    display: grid;
+    grid-template-rows: 70px auto auto 70px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "left"
+      "right"
+      "footer";
+  }
+}

@@ -1,0 +1,61 @@
+.message-3 {
+  opacity: 1;
+  animation: msg3 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4s;
+  white-space: nowrap;
+}
+@keyframes msg3 {
+  0% {
+    transform: translateX(0px);
+    opacity: 1;
+    white-space: nowrap;
+  }
+
+  2% {
+    transform: translateX(-130px);
+    opacity: 1;
+    white-space: nowrap;
+  }
+
+  35% {
+    transform: translateX(-130px);
+    opacity: 0;
+    white-space: nowrap;
+  }
+
+  100% {
+    transform: translateX(-120px);
+    opacity: 0;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 450px) {
+  @keyframes msg3 {
+    0% {
+      transform: translateX(0px);
+      opacity: 1;
+      white-space: nowrap;
+    }
+
+    2% {
+      transform: translateX(-90px);
+      opacity: 1;
+      white-space: nowrap;
+    }
+
+    30% {
+      transform: translateX(-90px);
+      opacity: 0;
+      white-space: nowrap;
+    }
+
+    100% {
+      transform: translateX(-90px);
+      opacity: 0;
+      white-space: nowrap;
+    }
+  }
+}
