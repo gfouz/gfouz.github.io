@@ -1,5 +1,5 @@
 ---
-title: Responsive design
+title: RESPONSIVE DESIGN!
 description: Learning how to use @nuxt/content to create a blog
 img: cloud.png
 alt: responsive

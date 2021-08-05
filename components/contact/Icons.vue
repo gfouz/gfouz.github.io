@@ -21,8 +21,8 @@
                 items: [
                     { name: "whatsapp", href: "https://api.whatsapp.com/send?phone=+5354278815" },
                     { name: "telegram", href: "https://api.whatsapp.com/send?phone=+5354278815" },
-                    { name: "github", href: "github.com/gfouz" },
-                    { name: "youtube", href: "youtube.com" }
+                    { name: "github", href: "https://github.com/gfouz" },
+                    { name: "youtube", href: "https://youtube.com" }
                 ]
             };
         }

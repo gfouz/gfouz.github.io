@@ -1,7 +1,7 @@
 ---
-title: What is a framework?
+title: WHAT IS A FRAMEWORK?
 description: I am a description of a great article
-img: gears.jpg
+img: puzzle2.jpg
 alt: frameworks
 author: 
   name: Giovani Fouz Jiménez.

@@ -1,4 +1,5 @@
 .blog-section1 {
+        // border: 1px solid black;
         grid-area: side1;
         text-align: center;
         display: flex;
@@ -9,17 +10,18 @@
 
         div {
             margin: 0 0.5em;
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
         }
 
         img {
             max-width: 100%;
             height: auto;
+    
         }
 
         h1 {
-            color: $GY;
+            color: rgb(59, 4, 4);
             margin: 0.9em auto;
         }
     }

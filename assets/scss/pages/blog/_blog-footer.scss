@@ -1,13 +1,10 @@
  #blog-footer {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        left: 0;
+        width: 100%;
         grid-area: footer;
         text-align: center;
         height: 90px;
         line-height: 90px;
-        background-color: rgb(104, 105, 105);
+        background-color: rgb(59, 4, 4);
         font-size: 25px;
 
         a {

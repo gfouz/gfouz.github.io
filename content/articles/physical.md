@@ -1,7 +1,7 @@
 ---
-title: Physical activity!
+title: PHYSICAL ACTIVITY!
 description: This is the description for and article about Lorem Ipsum
-img: smoke.jpg
+img: running.png
 alt: Article 6
 author: 
   name: Giovani Fouz Jiménez.

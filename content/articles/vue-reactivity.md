@@ -1,5 +1,5 @@
 ---
-title: Reactivity in VueJS.
+title: REACTIVITY IN VUEJS.
 description: Learning how to use @nuxt/content to create a blog
 img: japanese.jpg
 alt: my second blog post

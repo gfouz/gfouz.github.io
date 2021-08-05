@@ -1,22 +1,25 @@
 @import "./_mediaquery";
 
 .header {
-  background-color: rgb(104, 105, 105);
   width: 100%;
   height: 90px;
-  position: fixed;
-  top: 0;
-  left: 0;
+  background-color: rgb(59, 4, 4);
   @media (max-width: 768px) {
+    position: fixed;
+    top: 0;
     height: 60px;
     line-height: 60px;
+    margin: 0;
   }
+ 
 }
 .nav {
   display: flex;
+  font-style:italic;
   justify-content: space-between;
   max-width: 992px;
   margin: 0 auto;
+  
   .logo {
     @media (max-width: 768px) {
       line-height: 60px;
@@ -85,10 +88,9 @@
   transform: rotate(90deg);
 }
 .nav-menu-icons {
-   margin: 1px;
+  margin: 1px;
   @media (min-width: 768px) {
     display: none;
-    
   }
   img {
     padding-right: 2px;

@@ -7,7 +7,7 @@
             <section class="blog-section1">
                 <h1>HEADLESS CMS WITH NUXT JS</h1>
                 <div>
-                    <img src="../assets/images/blog/city.jpg" alt="blog-image"
+                    <img src="../assets/images/blog/puzzle.jpg" alt="blog-image"
                         title="Incluyo una experiencia personal.">
                 </div>
                 <h1>TAKE A LOOK AT...</h1>

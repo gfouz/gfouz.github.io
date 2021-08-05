@@ -6,9 +6,25 @@
 
 <style>
 html {
-  max-width: 1300px;
-  margin: 0 auto;
 
+   --DARK-GY:rgb(80, 80, 80);
+  --dark-gy: rgb(58, 52, 52);
+  --GY: rgb(97, 96, 96);
+  --OR: rgb(255, 126, 6);
+  --LT-GY: rgb(199, 186, 186);
+  --GD: rgb(184, 134, 11);
+  --GOLDEN: rgb(218, 165, 32);
+  --GN: rgb(21, 233, 183);
+  --BASE-COLOR: #0099ff;
+  --very-light: rgb(219, 219, 219);
+  --pink:rgb(255, 0, 76);
+
+
+
+  max-width: 1300px;
+  border-right: 1px solid var(--very-light);
+  border-left: 1px solid var(--very-light);
+  margin: 0 auto;
 
   font-family:
     'Source Sans Pro',
@@ -34,16 +50,6 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-
- --DARK-GY:rgb(80, 80, 80);
-  --dark-gy: rgb(58, 52, 52);
-  --GY: rgb(97, 96, 96);
-  --OR: rgb(255, 126, 6);
-  --LT-GY: rgb(199, 186, 186);
-  --GD: rgb(184, 134, 11);
-  --GOLDEN: rgb(218, 165, 32);
-  --GN: rgb(21, 233, 183);
-  --BASE-COLOR: #0099ff;
 
 
 </style>

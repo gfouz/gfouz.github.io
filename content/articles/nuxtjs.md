@@ -1,5 +1,5 @@
 ---
-title: What is Nuxt JS?
+title: WHAT IS NUXT JS?
 description: This article describes what is Nuxt.
 img: nuxtjs.png
 alt: article about nuxt js.

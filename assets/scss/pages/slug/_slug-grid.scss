@@ -1,0 +1,24 @@
+.slug-grid {
+    // this is for mobiles and tablets
+  @media (max-width: 799px) {
+    font-size: calc(0.7em + 1vw);
+    display: grid;
+    grid-template-areas:
+      "section1"
+      "section2"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 40px;
+  }
+    // this is for desktop
+  @media (min-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*!!!OJO SOLO SE PERMITE UNA SOLA UNIDAD!!! */
+    /*SE UTILIZA UNIDADES EN PX O % O UNA U OTRA */
+    grid-template-rows: minmax(670px, auto) 40px;
+    grid-template-areas:
+      "section1 section2"
+      "footer   footer";
+  }
+}

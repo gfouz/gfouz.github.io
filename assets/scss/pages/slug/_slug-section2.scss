@@ -1,0 +1,35 @@
+.slug-section-two {
+  grid-area: section2;
+}
+
+.section-two-container {
+  @media (min-width: 800px) {
+    margin: 0 1em;
+  }
+}
+
+.nuxt-content {
+  pre {
+    margin: 0 auto;
+    max-width: 460px;
+    text-align: left;
+
+    @media (max-width: 460px) {
+      max-width: 350px;
+    }
+  }
+  p {
+    color: $GY;
+    margin: 0.4em 2em;
+  }
+
+  h2 {
+    color: $LIGHT-GY;
+    margin: 0.1em 1.3em;
+  }
+  @media (min-width: 800px) {
+    margin: 2em 2em;
+  }
+}
+
+ 

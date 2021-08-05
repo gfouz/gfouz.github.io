@@ -1,5 +1,5 @@
  .blog-grid {
-        padding: 60px 0;
+       
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
@@ -9,7 +9,7 @@
 
         @media (min-width: 800px) {
 
-            padding: 75px 0;
+           
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto;
@@ -17,5 +17,7 @@
                 "side1 side2"
         }
 
-
+          @media (max-width: 768px) {
+              padding-top: 40px;
+          }
     }

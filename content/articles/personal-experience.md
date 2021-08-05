@@ -1,5 +1,5 @@
 ---
-title: My personal experience...
+title: MY PERSONAL EXPIRIENCE...
 description: El presente contenido está basado en mi experiencia personal.
 img: office.png
 alt: programmer

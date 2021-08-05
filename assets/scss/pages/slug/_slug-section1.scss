@@ -1,0 +1,43 @@
+.slug-section-one {
+  grid-area: section1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-one-container {
+  @media (min-width: 800px) {
+    max-width: 500px;
+    h2 {
+      margin: 0 2em;
+    }
+  }
+  max-width: 100%;
+  margin: 0em 1em;
+  img {
+    margin: 0.5em 0;
+  }
+  h2 {
+    margin: 0.5em 0.8em;
+    color: rgb(165, 1, 1);
+  }
+}
+
+.slug-author-date {
+  color:rgb(165, 1, 1);
+  margin: 1em 1em;
+}
+
+#slug-nav-bar {
+  margin: 1em 0 2em 0;
+}
+
+.slug-image {
+  max-width: 100%;
+  height: auto;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

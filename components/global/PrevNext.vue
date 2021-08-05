@@ -27,7 +27,7 @@
 </script>
 <style lang="scss">
   .nuxt-link {
-    color: teal;
+    color: rgb(255, 251, 4);
   }
 
   .prev-next-container {
@@ -36,7 +36,7 @@
     justify-content:space-evenly;
     align-items: center;
     height: 40px;
-     background-color: rgb(171, 221, 221);
+     background-color: rgb(40, 46, 66);
   }
 
 </style>

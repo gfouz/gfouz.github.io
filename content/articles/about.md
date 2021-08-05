@@ -1,5 +1,5 @@
 ---
-title: About me and programming.
+title: A LITTLE ABOUT ME AND...
 description: Esta es una breve descripcion sobre mi
 img: literature.jpg
 alt: nice image
