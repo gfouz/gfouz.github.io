@@ -22,8 +22,8 @@ html {
 
 
   max-width: 1300px;
-  border-right: 1px solid var(--very-light);
-  border-left: 1px solid var(--very-light);
+  /* border-right: 1px solid var(--very-light);
+  border-left: 1px solid var(--very-light); */
   margin: 0 auto;
 
   font-family:
