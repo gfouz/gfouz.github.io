@@ -4,7 +4,7 @@ export default {
 
  
   router: {
-            base: 'gfouz.github.io'
+          base: 'gfouz.github.io'
     },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
