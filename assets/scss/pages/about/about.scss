@@ -3,23 +3,31 @@
 .about-container {
   font-size: calc(0.8em + 1vw);
   display: grid;
-  grid-template-rows: 100px 400px auto auto auto auto 200px;
+  grid-template-rows: 100px auto auto auto auto auto auto 200px;
   grid-template-columns: 1fr;
   grid-template-areas:
     "header"
-    "main"
+    "main1"
+    "main2"
     "fr1"
     "fr2"
     "fr3 "
     "fr4"
     "footer";
 
-  .about-main {
-    h2 {
-      font-size: 18px;
+  .about-main1 {
+    img {
+      max-width: 100%;
+      height: auto;
     }
   }
 
+  .about-main2 {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
   .about-fr2 {
     div > img {
       max-width: 100%;
@@ -30,24 +38,19 @@
 
 @media (max-width: 949px) and (min-width: 600px) {
   .about-container {
-    font-size: calc(0.6em + 1vw);
+    font-size: calc(0.4em + 1vw);
     display: grid;
-    gap: 15px;
-    grid-template-rows: 100px 400px auto auto 200px;
+    grid-template-rows: 100px 1fr auto auto 200px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "header header"
-      "main main"
+      "main1 main2"
       "fr1 fr2"
       "fr4 fr3"
       "footer footer";
   }
 
-  .about-fr2 {
-    div > img {
-      max-width: 70%;
-      height: auto;
-    }
+
   }
 
   @media (max-width: 949px) and (min-width: 600px) {
@@ -58,18 +61,17 @@
       font-size: calc(0.7em + 1vw);
     }
   }
-}
+
 
 @media (min-width: 950px) {
   .about-container {
     font-size: calc(0.3em + 1vw);
     display: grid;
-    gap: 10px;
-    grid-template-rows: 100px 400px auto 200px;
+    grid-template-rows: 100px auto auto 200px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "header header header header"
-      "main main main main"
+      "main1 main1 main2 main2"
       "fr1 fr2 fr3 fr4"
       "footer footer footer footer";
   }

@@ -1,34 +1,31 @@
-header 
-{
+header {
   height: 100px;
   background-color: rgb(255, 253, 253);
-  .about-links 
-  {
+  .about-links {
     height: 100px;
     display: flex;
     align-items: center;
     margin-left: 2em;
   }
-  a 
-  {
+  a {
     padding: 2em;
-    color: $GN;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(134, 0, 0);
   }
-  #about-logo 
-  {
+  #about-logo {
     width: 100px;
     height: 100px;
     margin-left: auto;
   }
-  @media (max-width:450px){
-     .about-links 
-  {
-    height: 100px;
-    
-    a {
-      margin: 0px;
-      padding: 5px;
+  @media (max-width: 450px) {
+    .about-links {
+      height: 100px;
+
+      a {
+        margin: 0px;
+        padding: 5px;
+      }
     }
-  }
   }
 }

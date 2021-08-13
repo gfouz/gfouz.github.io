@@ -15,11 +15,9 @@
 }
 .nav {
   display: flex;
-  font-style:italic;
   justify-content: space-between;
   max-width: 992px;
   margin: 0 auto;
-  
   .logo {
     @media (max-width: 768px) {
       line-height: 60px;

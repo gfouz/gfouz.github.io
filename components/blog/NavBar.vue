@@ -6,7 +6,7 @@
                 <h4>HOME</h4>
             </NuxtLink>
             <NuxtLink to="/blog">
-                <h4>BACKWARDS</h4>
+                <h4>BLOG</h4>
             </NuxtLink>
             <NuxtLink to="/about">
                 <h4>ABOUT</h4>

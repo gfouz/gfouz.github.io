@@ -4,12 +4,18 @@
             <header class="about-header">
                 <Header></Header>
             </header>
-            <main class="about-main">
-                <h2>BEFORE WE WIN IN REALITY <br>
-                    WE NEED TO WIN IN OUR MIND.</h2>
+            <main class="about-main1">
+                <div class="about-pht-box1">
+                    <img src="../assets/temporal/relaxing.jpg" alt="">
+                </div>
+            </main>
+            <main class="about-main2">
+                <div class="about-pht-box2">
+                    <img src="../assets/temporal/food.jpg" alt="">
+                </div>
             </main>
             <section class="about-fr1">
-                <h3>A LITTLE ABOUT ME</h3>
+                <h4>A LITTLE ABOUT ME</h4>
                 <p>
                     I began learning C plus plus in 2017 in order to write firmwares for
                     micro-controllers. I was studying this language for more than a year
@@ -18,18 +24,28 @@
                     became my world. Things such as React and Express JS have drawn
                     all my attention so that i have studied these technologies. But more
                     recently i discovered one of the best and modern tools that is used to
-                    create wed applications and i refer to Vue JS and its ecosystem which
-                    i am focused on right now.
+                    create web applications and i refer to Vue JS and its ecosystem which
+                    is my focus of attention right now.
                 </p>
             </section>
+
             <section class="about-fr2">
-                <div><img src="../assets/images/about/content.jpg" alt=""></div>
-                <h2>GIT-BASED HEADLESS CMS</h2>
+                <div><img src="../assets/temporal/solve.jpg" alt=""></div>
+                <h4>GIT-BASED HEADLESS CMS</h4>
+                <p>
+                    Nuxt is based on a powerful modular architecture that can be used
+                    to build applications that are optimized out of the box while providing
+                    the best developer experience (from the NuxtJS website). This main buzz
+                    about NuxtJS is that it allows you build either spa or ssr apps easily,
+                    and this is very cool.
+                </p>
             </section>
+
             <section class="about-fr3">
                 <div>
-                    
+                    <img src="../assets/temporal/puzzle.jpg" alt="" srcset="">
                 </div>
+                <h4>NUXT CONTENT MODULE</h4>
                 <p>
                     I really enjoy working with the Nuxt_js content module, its api is
                     easy to learn and very very powerful and it is fast and light. you may
@@ -40,7 +56,7 @@
                 </p>
             </section>
             <section class="about-fr4">
-                <div></div>
+
                 <h4>IMPORTANT FOR ME</h4>
                 <p>
                     The number one is responsiveness. A responsive layout is the guarantee
@@ -54,7 +70,7 @@
                 </p>
             </section>
             <footer class="about-footer">
-                <h1>GFOUZ {{new Date().getFullYear()}}</h1>
+                <h1>GFOUZ &copy;{{new Date().getFullYear()}}</h1>
                 <Icons></Icons>
             </footer>
         </div>
@@ -75,17 +91,4 @@
 
 <style lang="scss" scoped>
     @import '../assets/scss/pages/about/about';
-     .about-main {
-      background-image: url('../assets/images/about/tree.jpg');
-     }
-      .about-fr3 div {
-           
-             background-image: url('../assets/images/about/pencils.jpg');
-           
-      }
-       .about-fr4  div {
-           
-                  background-image: url('../assets/images/about/_20191216_192049.jpg');
-            
-       }
 </style>

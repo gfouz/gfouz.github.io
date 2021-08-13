@@ -26,3 +26,12 @@ or envolving on them.
 And this portfolio meets that purpose, i have learned many many new
 things since that moment on.
 
+## This is my repository url to push my project to github.
+
+git remote add origin http://github.com/gfouz/gfouz.git
+
+git branch -M main
+
+git push -u origin main
+
+
