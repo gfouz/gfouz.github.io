@@ -1,39 +1,56 @@
 .contact-section1 {
   grid-area: left;
+}
+.contact-title {
+  width: fit-content;
+  height: auto;
+  margin: 2em auto;
+  font-size: calc(1.8em + 1vw);
+  font-style: italic;
+  @media (min-width: 900px) {
+    margin: 0.5em auto;
+  }
+}
+.contact-info {
+  font-style: italic;
+  h1 {
+    color: rgb(255, 238, 4);
+  }
+  a {
+    color: white;
+  }
+
+  h4 {
+    margin: 2em 0 0.5em 0;
+    color: white;
+  }
+}
+.email-and-phone {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-
-  @media only screen and (min-width: 600px) {
-    margin-left: 5%;
-    border-radius: 9px;
-    // border: 0.5px solid rgb(202, 202, 202);
-    background-color: rgb(248, 248, 248);
-  }
- 
-  
+  width: 320px;
+  margin: 0 auto;
+  height: auto;
+  font-size: calc(0.9em + 1vw);
 }
-
-
-.pages-links {
-  margin-top: 2em;
-  width: 270px;
-  height: fit-content;
-  border-left: 1px solid rgb(73, 25, 95);
-
+.contact-phone {
   a {
-    color: rgb(91, 17, 126);
-  }
-
-  div {
-    margin-left: 4px;
+    color: rgb(115, 158, 109);
   }
 }
-.blur {
-  font-size: 20px;
-  text-shadow: 0px 0px 9px  white;
-  // color: rgb(73, 25, 95);
-  margin: 1em 0 5px 0;
-  color: rgb(180, 1, 97);
+.icons-section {
+  width: 320px;
+  margin: 4em auto;
+}
+.icon-names {
+  width: 320px;
+  margin: 0 auto;
+  background-color: $contact-base;
+  display: flex;
+  a {
+    margin-left: 2em;
+    font-size: 0.8em;
+    color: white;
+  }
 }

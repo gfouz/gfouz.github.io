@@ -3,9 +3,6 @@
         <footer>
             <div class="footer-links">
                 <h2>GFOUZ {{new Date().getFullYear()}}</h2>
-                <div style="width: fit-content; margin: 0 auto;">
-                    <Icons></Icons>
-                </div>
             </div>
         </footer>
     </div>

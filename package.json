@@ -10,6 +10,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@nuxt/content": "^1.14.0",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
@@ -17,6 +18,9 @@
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.2.0",
     "fibers": "^5.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0",
     "node-sass": "^6.0.1",
     "push-dir": "^0.4.1",
     "sass": "^1.37.5",
