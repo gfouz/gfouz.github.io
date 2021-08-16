@@ -29,8 +29,4 @@
 
 <style lang="scss" scoped>
     @import '../../assets/scss/pages/homepage/card1';
-
-    .fr-up-1 {
-        background-image: url("../../assets/images/homepage/card1/blacksharetemp.jpg");
-    }
 </style>

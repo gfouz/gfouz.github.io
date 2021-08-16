@@ -1,6 +1,6 @@
 <template>
-    <div>
-         <section class="section-two">
+  <div>
+    <section class="section-two">
       <div class="fr-up-2">
         <div>
           <h2 style="text-shadow: 4px 4px 18px black">RESPONSIVE DESIGN</h2>
@@ -19,19 +19,15 @@
         </p>
       </div>
     </section>
-    </div>
+  </div>
 </template>
 
 <script>
-    export default {
+  export default {
 
-    }
+  }
 </script>
 
 <style lang="scss" scoped>
-   @import '../../assets/scss/pages/homepage/card2';
-   .fr-up-2 {
-       background-image: url("../../assets/images/homepage/card2/responsive.jpg");
-   }
-   
+  @import '../../assets/scss/pages/homepage/card2';
 </style>

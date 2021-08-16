@@ -29,8 +29,4 @@
 
 <style lang="scss" scoped>
     @import '../../assets/scss/pages/homepage/card3';
-
-    .fr-up-1 {
-        background-image: url("../../assets/images/homepage/card3/network.jpg");
-    }
 </style>

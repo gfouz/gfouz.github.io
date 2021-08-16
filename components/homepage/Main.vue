@@ -17,8 +17,4 @@
   
 <style lang="scss" scoped>
     @import '../../assets/scss/pages/homepage/main.scss';
-    .main-background {
-         background-image: url('../../assets/images/homepage/main/dog_640.jpg');
-    }
-  
 </style>
