@@ -21,7 +21,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## PORTFOLIO BUILT ON AUGUST 2021
 
-I strongly think that the best way to learn things in live is making 
+I strongly think that the best way to learn things in life is making 
 or envolving on them.
 And this portfolio meets that purpose, i have learned many many new
 things since that moment on.
