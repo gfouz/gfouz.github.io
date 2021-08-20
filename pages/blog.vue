@@ -14,19 +14,10 @@
 
             </section>
             <section class="blog-section2">
-                <h1>CLICK ON THESE LINKS:</h1>
-                <div class="blog-items">
-                    <h3>ARTICLES:</h3>
-                    <div v-for="item of list" class="dynamic-list">
-                        <div>
-                            <NuxtLink :to="`/book/${item.slug}`" style="text-decoration: none;">
-                                <p class="links">{{item.title}}</p>
-                            </NuxtLink>
-                        </div>
-
-                    </div>
-                </div>
+                <Gallery :items="list"></Gallery>
+                
                 <h1>WRITING MAY BE EXCITING!</h1>
+                
             </section>
         </div>
 
@@ -42,14 +33,16 @@
 
 <script>
     import Header from '../components/blog/Header';
+    import Gallery from '../components/blog/Gallery';
     export default {
         components: {
             Header,
+            Gallery
         },
         async asyncData({ $content, params }) {
 
             const list = await $content('articles')
-                .only(['slug', 'title'])
+                .only(['slug', 'title', 'img', 'path'])
                 .fetch();
 
             return { list }
