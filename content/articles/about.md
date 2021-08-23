@@ -1,7 +1,7 @@
 ---
-title: A LITTLE ABOUT ME AND...
+title: ABOUT ME...
 description: Esta es una breve descripcion sobre mi
-img: literature.jpg
+img: aboutme.jpg
 alt: nice image
 author: 
   name: Giovani Fouz

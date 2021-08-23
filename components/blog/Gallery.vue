@@ -3,8 +3,8 @@
         <div class="grid-container">
 
             <div v-for="(item, index) in items" class="item"  :style="{'background-image':'url(' + require('~/assets/images/blog/' + item.img) + ')'}">
-                <NuxtLink :to="`/book/${item.slug}`" style="text-decoration: none;">
-                    <p class="links">{{item.title}}</p>
+                <NuxtLink :to="`/book/${item.slug}`">
+                    <p>{{item.title}}</p>
                 </NuxtLink>
             </div>
 

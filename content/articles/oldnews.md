@@ -1,5 +1,5 @@
 ---
-title: OLD NEWS FROM MANY COUNTRIES.
+title: OLD NEWS FROM...
 description: Learning how to use @nuxt/content to create a blog
 img: world.jpg
 alt: my third blog post

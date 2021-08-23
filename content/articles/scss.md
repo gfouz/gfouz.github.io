@@ -1,5 +1,5 @@
 ---
-title: THANKS! SASS AND SCSS.
+title: THANKS SASS!
 description: This is a description for this article which describes what it is about
 img: sass.svg
 alt: Hello i'm article about scss.

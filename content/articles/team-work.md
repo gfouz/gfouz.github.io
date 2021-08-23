@@ -1,5 +1,5 @@
 ---
-title: EL TRABAJO EN EQUIPO...
+title: TRABAJO EN EQUIPO...
 description: Learning how to use @nuxt/content to create a blog again
 img: teamwork.jpg
 alt: nice image
