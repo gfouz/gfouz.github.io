@@ -2,17 +2,20 @@
     <div class="gallery-container">
         <div class="grid-container">
 
-            <div v-for="(item, index) in items" class="item"  :style="{'background-image':'url(' + require('~/assets/images/blog/' + item.img) + ')'}">
+            <div v-for="(item, index) in items" class="item">
+                <div class="item-images"
+                    :style="{'background-image':'url(' + require('~/assets/images/blog/' + item.img) + ')'}">
+                    <div id="click-here"><span>click below!</span></div>
+                </div>
                 <NuxtLink :to="`/book/${item.slug}`">
-                    <p>{{item.title}}</p>
+                    <p class="links">{{item.title}}</p>
                 </NuxtLink>
             </div>
-
         </div>
     </div>
 </template>
 <script>
-    
+
     export default {
         props: {
             items: {
@@ -26,7 +29,7 @@
                 image: '~/assets/images/blog/bible'
             }
         },
-       
+
     }
 </script>
 <style lang="scss" scoped>

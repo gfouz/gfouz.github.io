@@ -1,5 +1,5 @@
 ---
-title: ABOUT ME...
+title: A LITTLE ABOUT ME AND ABOUT...
 description: Esta es una breve descripcion sobre mi
 img: aboutme.jpg
 alt: nice image
