@@ -1,17 +1,17 @@
 header {
   height: 100px;
-  background-color: rgb(255, 253, 253);
+  background-color: $transparent;
   .about-links {
     height: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin-left: 2em;
   }
   a {
-    padding: 2em;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(134, 0, 0);
+    text-decoration: none;
+    font-family: literata;
+    color: $DARK-GY;
   }
   #about-logo {
     width: 100px;
