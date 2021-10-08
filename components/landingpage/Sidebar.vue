@@ -3,14 +3,21 @@
         <nav class="navbar__links">
             
                
+               
                 <div class="nav__item">
+                    <NuxtLink to="/blog">
+                        BLOG
+                    </NuxtLink>
+                </div>
+                 <div class="nav__item">
                     <NuxtLink to="/about">
                         ABOUT
                     </NuxtLink>
                 </div>
+                
                 <div class="nav__item">
-                    <NuxtLink to="/blog">
-                        BLOG
+                    <NuxtLink to="/work">
+                       WORKS
                     </NuxtLink>
                 </div>
                  <div class="nav__item">
@@ -66,7 +73,7 @@
     .navbar__links {
          display: flex;
          flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         height: 100%;
       
@@ -74,12 +81,14 @@
     }
     .nav__item {
          list-style-type: none;
+          margin: 1rem 0;
         a{
            
             text-decoration: none;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-family: literata;
             color: rgb(32, 35, 44);
+
         }
        
     }

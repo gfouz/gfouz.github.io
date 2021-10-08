@@ -1,10 +1,11 @@
 <template>
-  <div class="main__container">
+  <div class="main--container">
     <h1>GFOUZ PORTFOLIO {{new Date().getFullYear()}}</h1>
     <h2>I love web development</h2>
     <a href="https://github.com/gfouz">
       <!--<img src="../assets/images/landingpage/github-white.svg" alt="" width="50px">-->
       <h2>Follow me !</h2>
+      <img src="../assets/icons/git-alt.svg" width="40px">
     </a>
     <Burger @toggle="toggle" />
     <Sidebar :open="scroll" />
@@ -32,7 +33,7 @@
   }
 </script>
 <style lang="scss" scoped>
-  .main__container {
+  .main--container {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -41,12 +42,12 @@
     height: 100vh;
     width: 100%;
     background-color: $XDARK-GY;
-
+    font-family: literata;
   }
 
   h1 {
-    font-family: literata;
-    font-size: 3em;
+  
+    font-size: 2em;
     color: rgb(255, 254, 254);
 
     @media (max-width: 480px) {
@@ -55,7 +56,6 @@
   }
 
   h2 {
-    font-family: literata;
     margin: 1em 0;
     color: rgb(255, 255, 255);
   }
