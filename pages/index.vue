@@ -1,72 +1,69 @@
 <template>
-  <div class="portfolio">
-    <div class="grid-container">
-
-      <div id="header">
-        <div><Header></Header></div>
-      </div>
-      <div id="main">
-        <Main></Main>
-      </div>
-      <div id="sidebar"><Sidebar></Sidebar></div>
-      <div id="section-1">
-        <Card1></Card1>
-      </div>
-      <div id="section-2">
-        <Card2></Card2>
-      </div>
-      <div id="section-3">
-         <Card3></Card3>
-      </div>
-      <div id="footer">
-         <Footer></Footer>
-      </div>
-
-    </div>
+  <div class="main__container">
+    <h1>GFOUZ PORTFOLIO {{new Date().getFullYear()}}</h1>
+    <h2>I love web development</h2>
+    <a href="https://github.com/gfouz">
+      <!--<img src="../assets/images/landingpage/github-white.svg" alt="" width="50px">-->
+      <h2>Follow me !</h2>
+    </a>
+    <Burger @toggle="toggle" />
+    <Sidebar :open="scroll" />
   </div>
-
 </template>
-
 <script>
-  import Header from '../components/homepage/Header'
-  import Main from '../components/homepage/Main'
-  import Card1 from '../components/homepage/Card1'
-  import Card2 from '../components/homepage/Card2'
-  import Card3 from '../components/homepage/Card3'
-  import Sidebar from  '../components/homepage/Sidebar'
-  import Footer from '../components/homepage/Footer'
+  import Sidebar from '../components/landingpage/Sidebar';
+  import Burger from '../components/landingpage/Burger';
   export default {
+
     components: {
-      Header,
-      Main,
-      Card1,
-      Card2,
-      Card3,
       Sidebar,
-      Footer
+      Burger
     },
     data: () => {
       return {
-        textthree: [],
+        scroll: false
       }
     },
-    //  async asyncData({ $content }) {
-    //       const markdown = await $content('card3').fetch()
-    //       const cms = markdown
-    //       const { body: { children: [{ children: [children] }] } } = markdown
-    //       return {
-    //         cms,
-    //         children
-    //       }
-    //     },
-    //     created() {
-    //       this.textthree = this.cms
-    //     },
-
-  };
+    methods: {
+      toggle(open) {
+        this.scroll = open;
+      }
+    }
+  }
 </script>
-
 <style lang="scss" scoped>
-  @import '../assets/scss/pages/homepage/index';
- 
+  .main__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: $XDARK-GY;
+
+  }
+
+  h1 {
+    font-family: literata;
+    font-size: 3em;
+    color: rgb(255, 254, 254);
+
+    @media (max-width: 480px) {
+      font-size: 30px;
+    }
+  }
+
+  h2 {
+    font-family: literata;
+    margin: 1em 0;
+    color: rgb(255, 255, 255);
+  }
+  a {
+    text-decoration: none;
+  }
+
+  
 </style>
+
+
