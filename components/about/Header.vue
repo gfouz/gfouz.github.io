@@ -4,6 +4,7 @@
          <div class="about-links">
              <NuxtLink to="/"><strong>HOME</strong> </NuxtLink>
              <NuxtLink to="/blog"><strong>BLOG</strong></NuxtLink>
+               <NuxtLink to="/work"><strong>WORK</strong></NuxtLink>
              <NuxtLink to="/contact"><strong>CONTACT</strong></NuxtLink>
              
          </div>

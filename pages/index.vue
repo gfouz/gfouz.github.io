@@ -1,10 +1,10 @@
 <template>
   <div class="main--container">
     <h1>GFOUZ PORTFOLIO {{new Date().getFullYear()}}</h1>
-    <h2>I love web development</h2>
+    <h2>Lover of React and Vue JS .</h2>
     <a href="https://github.com/gfouz">
       <!--<img src="../assets/images/landingpage/github-white.svg" alt="" width="50px">-->
-      <h2>Follow me !</h2>
+      <h2>See my code !</h2>
       <img src="../assets/icons/git-alt.svg" width="40px">
     </a>
     <Burger @toggle="toggle" />
@@ -37,10 +37,10 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100%;
     background-color: $XDARK-GY;
     font-family: literata;
   }
