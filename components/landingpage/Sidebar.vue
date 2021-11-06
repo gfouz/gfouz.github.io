@@ -10,21 +10,18 @@
                     </NuxtLink>
                 </div>
                  <div class="nav__item">
+                    <NuxtLink to="/work">
+                       WORK
+                    </NuxtLink>
+                </div>
+                 <div class="nav__item">
                     <NuxtLink to="/about">
                         ABOUT
                     </NuxtLink>
                 </div>
                 
-                <div class="nav__item">
-                    <NuxtLink to="/work">
-                       WORKS
-                    </NuxtLink>
-                </div>
-                 <div class="nav__item">
-                    <NuxtLink to="/contact">
-                       CONTACT
-                    </NuxtLink>
-                </div>
+               
+                 
         </nav>
     </div>
 </template>

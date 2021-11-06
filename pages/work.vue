@@ -29,12 +29,9 @@
             <div class="picture__container">
                 <div class="picture__item--container">
                     <div class="picture__image1--container"></div>
-                    <h3>Awesome Universe!</h3>
-                    <p>It seems like science fiction—once-bright stars becoming invisible, crushed by their own
-                        gravitational force, with nothing, not even light, escaping their grasp. Many astronomers
-                        believe that such black holes may be commonplace in the universe. Would you like to know more
-                        about them? The story begins in the beautiful northern constellation called Cygnus, meaning “the
-                        Swan.”
+                    <h3>Goals and hopes!</h3>
+                    <p>
+                        When we are faced with difficult times as we are now with the effects of a worldwide pandemic, it is easy to get discouraged and lose hope.  Hope is a vital component of human existence, and it is needed to find happiness and peace during times that might otherwise lead us to be discouraged.  As Andrew Carnegie so clearly pointed out, setting a goal can keep your thoughts focused, direct your energy, and inspire the hope that is needed to move through and beyond a moment of despair.
                     </p>
                 </div>
 
@@ -42,12 +39,9 @@
             <div class="picture__container">
                 <div class="picture__item--container">
                     <div class="picture__image2--container"></div>
-                    <h3>Science fiction or reality</h3>
-                    <p>By the early 1900’s, scientists were beginning to make these visionaries’ dreams come true.
-                        According to the book Die Großen, German physicist H.Oberth spent years trying to make Jules
-                        Verne’s dreams a reality.But, he was not the only one. “Braun and his colleagues in Germany read
-                        Wells and Verne when they were children. They decided that when they grew up, they would make it
-                        all come true.”
+                    <h3>Imagination & inspiration</h3>
+                    <p>The ability to imagine things pervades our entire existence. It influences everything we do, think about and create. It leads to elaborate theories, dreams and inventions in any profession 
+                    and ultimately, imagination influences everything we do regardless of our profession.    
                     </p>
                 </div>
 
@@ -56,12 +50,9 @@
             <div class="picture__container">
                 <div class="picture__item--container">
                     <div class="picture__image3--container"></div>
-                    <h3>Creation or Evolution?</h3>
-                    <p>Certain features of the circulatory system of trees and plants are so amazing that many
-                        scientists regard them as almost miraculous. First, how is the water pumped two or three hundred
-                        feet above the ground? Root pressure starts it on its way, but in the trunk another mechanism
-                        takes over. Water molecules hold together by cohesion... read more here:
-                        <a href="https://jw.org">Jw.org</a>
+                    <h3>How to enhance your imagination</h3>
+                    <p>
+                       Start with the end in mind, you firstly need to know your goal and have a vision of what you want to achieve. Many people don’t have a clear vision of what they would like to achieve. Instead, they are held back from what they want to achieve by focusing on the obstacles that get in the way. So that it is very meaningful to know why your vision is so important to you.
                     </p>
 
                 </div>
@@ -190,7 +181,7 @@
     .picture__image1--container {
         width: 100%;
         height: 200px;
-        background-image: url('../assets/images/work/stars.jpg');
+        background-image: url('../assets/images/work/children-school.jpg');
         background-size: cover;
         background-position: bottom;
     }
@@ -198,7 +189,7 @@
     .picture__image2--container {
         width: 100%;
         height: 200px;
-        background-image: url('../assets/images/work/matrix.jpg');
+        background-image: url('../assets/images/work/book-glasses.jpg');
         background-size: cover;
         background-position: center;
     }

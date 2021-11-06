@@ -1,15 +1,16 @@
 <template>
-  <div class="main--container">
-    <h1>GFOUZ PORTFOLIO {{new Date().getFullYear()}}</h1>
-    <h2>Lover of React and Vue JS .</h2>
-    <a href="https://github.com/gfouz">
-      <!--<img src="../assets/images/landingpage/github-white.svg" alt="" width="50px">-->
-      <h2>See my code !</h2>
-      <img src="../assets/icons/git-alt.svg" width="40px">
-    </a>
+  <div class="main-container">
+    <div class ="main__title">
+          <h1>PORTFOLIO {{new Date().getFullYear()}}</h1>
+          <h5>GFOUZ</h5>
+          <a href="https://github.com/gfouz">
+          <img src="../assets/icons/git-alt.svg" width="30px">
+          </a>
+    </div>  
+    
     <Burger @toggle="toggle" />
     <Sidebar :open="scroll" />
-  </div>
+  </div> 
 </template>
 <script>
   import Sidebar from '../components/landingpage/Sidebar';
@@ -33,16 +34,29 @@
   }
 </script>
 <style lang="scss" scoped>
-  .main--container {
+  .main-container {
     text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     height: 100vh;
     background-color: $XDARK-GY;
     font-family: literata;
+    background: url('../assets/images/home/pen.jpg') no-repeat center;
+    background-size: cover;
+
+  }
+  .main__title {
+    h1,h5 {
+      color: #cdc058;
+      margin: 1em 0 0 0;
+    }
+    img {
+      margin: 1.5em 0;
+
+    }
   }
 
   h1 {
@@ -55,10 +69,7 @@
     }
   }
 
-  h2 {
-    margin: 1em 0;
-    color: rgb(255, 255, 255);
-  }
+  
   a {
     text-decoration: none;
   }
