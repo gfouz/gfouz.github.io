@@ -280,7 +280,7 @@
         align-items: center;
         flex-direction: column;
         img {
-            width: 130px;
+            width: 100px;
         }
         p {
             margin: 0.5em 0;

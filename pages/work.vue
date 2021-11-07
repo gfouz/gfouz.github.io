@@ -1,73 +1,53 @@
 <template>
     <div class="grid--container">
-        <header>
-            <div class="nav__list">
-                <NuxtLink to="/"><strong>HOME</strong> </NuxtLink>
-                <NuxtLink to="/blog"><strong>BLOG</strong></NuxtLink>
-                <NuxtLink to="/about"><strong>ABOUT</strong></NuxtLink>
-                <NuxtLink to="/contact"><strong>CONTACT</strong></NuxtLink>
+        <div class="main">
+            <h1 class="main__title">Work<span class="main__author">By GFOUZ</span></h1>
+        </div>
+        <header class="topbar">
+            <div class="topbar__container">
+                <NuxtLink to="/" class="topbar__item">home</NuxtLink>
+                <NuxtLink to="/blog" class="topbar__item">blog</strong></NuxtLink>
+                <NuxtLink to="/about" class="topbar__item">about</NuxtLink>
+                <NuxtLink to="/contact" class="topbar__item">contact</NuxtLink>
             </div>
 
         </header>
-       
-        <section class="github--links">
+        <section class="work-profile">
+            <div class="work-profile__item">
+                <img src="../assets/images/work/studying.png" class="work-profile__image">
+                <div class="work-profile__content">
+                    <h3 class="work-profile__title">Why I choose React's technologies ?</h3>
+                    <p class="work-profile__paragraph">
+                        React has a lot to offer. It allows for faster and easier development with components, provides
+                        excellent app performance thanks to Virtual DOM, and has a great community ready to help and
+                        creating useful solutions. It enjoys the support and resources of one of the most successful
+                        tech companies in the world. React's popularity has been steadily increasing over the years,
+                        which is great news for everyone using it.
 
-            <img src="../assets/icons/git-alt.svg" alt="atom" width="60px" style="margin: 2em 0;" />
-            <nav class="link__list">
-                
-                <a href="https://github.com/gfouz">
-                       <h3>Take a look at my code!</h3>
-                       <p>Portfolio 2021 Nuxt</p> 
-                       <p> Markdown to JSX </p>
-                       <p> CMS Next JS </p>
-                </a>
-                
-            </nav>
-            <h4>Mobile first and Responsive design</h4>
+                    </p>
+                </div>
+            </div>
+            <div class="work-profile__item">
+                <img src="../assets/icons/next.svg" width = "140px">
+                <div class="work-profile__content">
+                    <h3 class="work-profile__title">NextJs is a two-edged "sword"</h3>
+                    <p class="work-profile__paragraph">
+                        It's super fast With the help of Server-side rendering and static-site generation 
+                        loads the site blazing fast. It's SEO friendly, you can customize your own <meta> tags to improve your Search Engine Optimisation.
+                        Wide features out of the box: minifying javascript, doing code splitting, lazy loading, prefetching assets and much more...
+                    </p>
+                    <div class="work-profile__others">
+                         <img src="../assets/icons/award.svg" width="30px">
+                         <h3>I am lover of ReactJs technologies!</h3>
+                    </div>
+                </div>
+            </div>
         </section>
-        <article class="picture--section">
-            <div class="picture__container">
-                <div class="picture__item--container">
-                    <div class="picture__image1--container"></div>
-                    <h3>Goals and hopes!</h3>
-                    <p>
-                        When we are faced with difficult times as we are now with the effects of a worldwide pandemic, it is easy to get discouraged and lose hope.  Hope is a vital component of human existence, and it is needed to find happiness and peace during times that might otherwise lead us to be discouraged.  As Andrew Carnegie so clearly pointed out, setting a goal can keep your thoughts focused, direct your energy, and inspire the hope that is needed to move through and beyond a moment of despair.
-                    </p>
-                </div>
-
-            </div>
-            <div class="picture__container">
-                <div class="picture__item--container">
-                    <div class="picture__image2--container"></div>
-                    <h3>Imagination & inspiration</h3>
-                    <p>The ability to imagine things pervades our entire existence. It influences everything we do, think about and create. It leads to elaborate theories, dreams and inventions in any profession 
-                    and ultimately, imagination influences everything we do regardless of our profession.    
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="picture__container">
-                <div class="picture__item--container">
-                    <div class="picture__image3--container"></div>
-                    <h3>How to enhance your imagination</h3>
-                    <p>
-                       Start with the end in mind, you firstly need to know your goal and have a vision of what you want to achieve. Many people don’t have a clear vision of what they would like to achieve. Instead, they are held back from what they want to achieve by focusing on the obstacles that get in the way. So that it is very meaningful to know why your vision is so important to you.
-                    </p>
-
-                </div>
-
-            </div>
-        </article>
-        <article class="technologies--profile">
-            <div class="flex--row">
-                <img src="../assets/icons/react.svg" width="40px" class="react--logo">
-                <h5>Made with Nuxt!</h5>
-                <img src="../assets/icons/vue.svg" width="40px">
-            </div>
-            <img src="../assets/icons/html.svg" width="20px">
-            <h4>I use <span>React</span> or VueJS to create web!</h4>
-
+        <section class="react-logo">
+             <img src="../assets/images/work/atoms.png" class="react-logo__image">
+        </section>
+        <article class="project">
+            
         </article>
         <footer>
             <h4>GFOUZ &copy; 2021</h4>
@@ -83,146 +63,110 @@
     .grid--container {
         min-height: 100vh;
         display: grid;
-        grid-template-rows: 70px  350px auto 200px 80px;
+        grid-template-rows: 300px 60px auto 100px auto 80px;
         grid-template-columns: 1fr;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        background: url('../assets/images/work/flowers.jpg') no-repeat top right;
+        background-size: cover;
+    }
+
+    .main__title {
+        color: #b7e4f9;
+        font-family: Times New Roman, serif;
+        ;
+        font-size: 2.5em;
+    }
+
+    .main__author {
+        position: relative;
+        top: 30px;
+        left: -40px;
+        font-family: Times New Roman, serif;
+        font-size: 0.7em;
+        color: #b7e4f9;
     }
 
     header {
         z-index: 1;
         width: 100%;
-        height: 70px;
+        height: 60px;
         display: flex;
-        background-color: $GREY-700;
+        background-color: #b7e4f9;
     }
 
-    .nav__list {
+    .topbar__container {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-
-        a {
-            color: #ffffff;
-            text-decoration: none;
-        }
     }
 
-   
-
-    .github--links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        h4 {
-            text-align: center;
-            font-family: literata;
-            color: $DARK-GY;
-            margin-top: 3em;
-            text-transform: uppercase;
-        }
+    .topbar__item {
+        font-weight: bolder;
+        color: #107897;
+        text-decoration: none;
     }
 
-    .link__list {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-       
-        a {
-             color: #009575;
-             text-decoration: none;
-             font-weight: bolder;
-        }
-        h3 {
-            color: $DARK-GY;
-        }
-    }
-
-    
-
-    .picture--section {
+    .work-profile {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5em 0;
+        @media (min-width: 32em){
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin: 2em 0;
+        }
     }
 
-    .picture__container {
-        width: 320px;
+    .work-profile__item {
+        padding: 0 4px;
+        width: 350px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .work-profile__title {
+        color: #107897;
+    }
+
+    .work-profile__image {
+        
+        max-width: 100%;
         height: auto;
-        margin: 1em 1em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
     }
-
-    .picture__item--container {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-        color: $DARK-GY;
-
-        p {
-            padding: 0.5em 0;
-            text-align: left;
-        }
-
-        h3 {
-
-            margin-top: 0.7em;
-            margin-bottom: -0.5em;
-        }
+    
+    .work-profile__paragraph {
+        color: #505050;
     }
-
-    .picture__image1--container {
-        width: 100%;
-        height: 200px;
-        background-image: url('../assets/images/work/children-school.jpg');
-        background-size: cover;
-        background-position: bottom;
-    }
-
-    .picture__image2--container {
-        width: 100%;
-        height: 200px;
-        background-image: url('../assets/images/work/book-glasses.jpg');
-        background-size: cover;
-        background-position: center;
-    }
-
-    .picture__image3--container {
-        width: 100%;
-        height: 200px;
-        background-image: url('../assets/images/work/beatle.jpg');
-        background-size: cover;
-        background-position: center;
-    }
-
-    .technologies--profile {
-        width: 100%;
+    .work-profile__others {
+        color: #404040;
+        margin: 1em 0;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-
-        h4 {
-            color: #616161;
+        img {
+            margin: 0 0 1em 0;
         }
-
-        h5 {
-            margin: 0 2em;
-        }
-
-        span {
-            color: #fe0202;
-        }
+    }
+    .react-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
     }
-
+    .react-logo__image {
+        width: 80px;
+    }
     footer {
         width: 100%;
         height: 80px;
@@ -233,31 +177,17 @@
         color: #009575;
         background-color: #e0f7fa;
     }
+   
 
-
-    .flex--column {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100%;
-    }
-
-    .flex--row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+    
 
     @media (prefers-reduced-motion: no-preference) {
-        .react--logo {
-            animation: react--icon infinite 20s linear;
+        .react-logo__image {
+            animation: turning infinite 20s linear;
         }
     }
 
-    @keyframes react--icon {
+    @keyframes turning {
         from {
             transform: rotate(0deg);
         }
@@ -267,3 +197,8 @@
         }
     }
 </style>
+
+
+
+
+

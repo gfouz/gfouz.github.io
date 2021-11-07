@@ -52,11 +52,11 @@
   }
 
   .primary-dark {
-    background-color:black;
+    background-color: #000000;
     transition: all 0.5s;
   }
   .primary-light {
-    background-color: white;
+    background-color: #cdc058;
     transition: all 0.5s;
     }
   .up {

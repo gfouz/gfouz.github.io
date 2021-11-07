@@ -1,20 +1,20 @@
 <template>
-    <div :class="open ? 'sidebar__container-close' : 'sidebar__container-open' ">
-        <nav class="navbar__links">
+    <div :class="open ? 'sidebar-container--close' : 'sidebar-container--open' ">
+        <nav class="navbar__link-list">
             
                
                
-                <div class="nav__item">
-                    <NuxtLink to="/blog">
+                <div  class="navbar__item-box navbar__item--blinking blink--1">
+                    <NuxtLink to="/blog" >
                         BLOG
                     </NuxtLink>
                 </div>
-                 <div class="nav__item">
+                 <div class="navbar__item-box navbar__item--blinking blink--2">
                     <NuxtLink to="/work">
                        WORK
                     </NuxtLink>
                 </div>
-                 <div class="nav__item">
+                 <div  class="navbar__item-box navbar__item--blinking blink--3">
                     <NuxtLink to="/about">
                         ABOUT
                     </NuxtLink>
@@ -37,7 +37,8 @@
     }
 </script>
 <style lang="scss" scoped>
-    .sidebar__container-open {
+    
+    .sidebar-container--open {
         position: absolute;
         top: 0;
         left: 0;
@@ -46,14 +47,14 @@
         align-items: center;
         height: 100vh;
         width: 200px;
-        background-color: #ffffff;
+        background-color: #cdc058;
         transform: translateX(0);
         transition: 0.3s all;
         @media (max-width: 450px){
             width: 100%;
         }
     }
-     .sidebar__container-close {
+     .sidebar-container--close {
         position: absolute;
         top: 0;
         left: 0;
@@ -67,7 +68,7 @@
         transition: 0.3s all;
      }
 
-    .navbar__links {
+    .navbar__link-list {
          display: flex;
          flex-direction: column;
         justify-content: center;
@@ -76,19 +77,51 @@
       
          
     }
-    .nav__item {
-         list-style-type: none;
-          margin: 1rem 0;
-        a{
-           
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-family: literata;
-            color: rgb(32, 35, 44);
+    .navbar__item-box {
+        margin: 1.3em 0;
 
-        }
+    }
+    .navbar__item-box a {
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-weight: bolder;
+           letter-spacing: 3px;
+           font-family: fantasy;
+          color: rgb(32, 35, 44);
        
     }
+    .navbar__item--blinking a {
+        color: #000000;
+        animation: alert 4s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+
+    }
+    .blink--1 a {
+        animation-delay: 1s;
+    }
+     .blink--2 a {
+        animation-delay:  2s;
+
+    }
+     .blink--3 a {
+       animation-delay:  3s;
+    }
+
+
+
+   @keyframes alert {
+
+     from {
+       color: #ffffff;
+
+     }
+
+     to {
+        color: #000000;
+       
+     }
+   }
    
    
 </style>

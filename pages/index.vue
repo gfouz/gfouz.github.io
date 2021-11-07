@@ -46,6 +46,9 @@
     font-family: literata;
     background: url('../assets/images/home/pen.jpg') no-repeat center;
     background-size: cover;
+    @media (min-width:600px) {
+      align-items: flex-end
+    }
 
   }
   .main__title {
@@ -56,6 +59,9 @@
     img {
       margin: 1.5em 0;
 
+    }
+    @media (min-width:600px) {
+      margin: 2.5em 2.5em;
     }
   }
 
