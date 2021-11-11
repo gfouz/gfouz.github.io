@@ -51,7 +51,7 @@
         <article class="github-projects">
 
              <div class="github-projects__container">
-                <h3 class="github-projects__title">Some of my skills</h3>
+                <h3 class="github-projects__title">SOME OF MY SKILLS</h3>
                 <h5 class="github-projects__skill">HTML</h5>
                 <h5 class="github-projects__skill">CSS</h5>
                 <h5 class="github-projects__skill">JAVASCRIPT</h5>
@@ -61,11 +61,11 @@
 
             <div class="github-projects__container">
                <div >
-                     <h3 class="github-projects__title">Github's projects list</h3>
+                     <h3 class="github-projects__title">GITHUB'S PROJECTS</h3>
                 <div class="github-projects__link-container">
-                   <a href="https://github.com/gfouz" class="github-projects__link"><span>.</span> SSG with NuxtJs</a>
-                   <a href="https://github.com/gfouz" class="github-projects__link"><span>.</span> CMS with NextJs</a>
-                   <a href="https://github.com/gfouz" class="github-projects__link"><span>.</span> Express Server NodeJS</a>
+                   <a href="https://github.com/gfouz" class="github-projects__link">SSG with NuxtJs</a>
+                   <a href="https://github.com/gfouz" class="github-projects__link">CMS with NextJs</a>
+                   <a href="https://github.com/gfouz" class="github-projects__link">Express Server NodeJS</a>
                 </div>
                 
                 
@@ -166,6 +166,7 @@
 
     
     .work-profile__title {
+        margin: 1em 0 0 0;
         color: #107897;
     }
 
@@ -173,6 +174,9 @@
 
         max-width: 100%;
         height: auto;
+    }
+    .work-profile__icon {
+        align-self: flex-start;
     }
 
     .work-profile__paragraph {
