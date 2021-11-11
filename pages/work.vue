@@ -72,9 +72,10 @@
                 <div class="github-projects__picture">.</div>
                 <div class="github-projects__subcontainer">
                      <p>I see great advantages to work</p>
-                     <p>with SCSS or SASS and</p>
-                     <p>styled-components is among my</p>
-                     <p>favorite css in js technologies.</p>
+                     <p>with ReactJs and its ecosystem.</p>
+                     <p>This library teaches good practices</p>
+                     <p>and styled-components is among</p>
+                     <p>my favorite css in js technologies.</p>
                 </div>
               </div>
                

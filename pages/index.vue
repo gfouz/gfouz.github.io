@@ -40,18 +40,21 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     height: 100vh;
     background-color: $XDARK-GY;
     font-family: literata;
     background: url('../assets/images/home/pen.jpg') no-repeat center;
     background-size: cover;
     @media (min-width:600px) {
-      align-items: flex-end
+      align-items: flex-end;
+      justify-content: flex-end;
     }
 
   }
   .main__title {
+    margin: 4em 0 0 0;
+
     h1,h5 {
       color: #cdc058;
       margin: 1em 0 0 0;
@@ -61,7 +64,7 @@
 
     }
     @media (min-width:600px) {
-      margin: 2.5em 2.5em;
+      margin: 3em 3em;
     }
   }
 
